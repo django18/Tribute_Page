@@ -1,0 +1,131 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #header{
+      background-color: black;
+   }
+
+   #header h2{
+      color: white;
+      font-weight: bolder;
+      font-size: 24px;
+      font-family: 'Great Vibes', cursive;
+   }
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+#section1{
+   background-color: #dfd9e0;
+}
+
+#section2{
+ background-color: rgb(183, 188, 201);
+}
+
+#section3{
+ background-color: #dfd9e0;
+}
+
+#section4{
+ background-color: rgb(183, 188, 201);
+}
+
+#img{
+   height: 600px;
+}
+
+#text{
+   padding: 10% 5%;
+}
+
+#text h1{
+font-family: 'Lobster', Georgia, Times, serif;
+ font-size: 56px;
+ margin-bottom: 10px;
+ font-weight: 800;
+}
+
+#text p,#text li{
+font-family: 'Cabin', Helvetica, Arial, sans-serif;
+ font-size: 20px;
+ line-height: 25px;
+}
+
+li{
+   list-style-type: none;
+}
+
+#saying{
+   font-style: italic;
+}
+
+#section2 #text,#section4 #text{
+   color: black;
+}
+
+#wikilink{
+   text-decoration: none;
+   color: white;
+   font-family: 'Great Vibes', cursive;
+}
+
+a{
+   color: white;
+}
+
+footer p{
+   font-size: 24px;
+   color: red;
+   font-family: 'Lobster', Georgia, Times, serif;
+
+}
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
